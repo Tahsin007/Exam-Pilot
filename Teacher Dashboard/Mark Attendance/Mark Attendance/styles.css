@@ -1,0 +1,207 @@
+/* Basic styling for sidebar and content */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+    background-color: #222;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #444;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav li.active {
+    background-color: #ff8533;
+}
+
+.content {
+    margin-left: 250px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-image: url('../Home/image/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 87px;
+}
+
+
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-details h1 {
+    margin: 350px;
+
+    font-family: Cambria;
+}
+
+
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+
+.content1 {
+    margin-left: 35px;
+    width: 85%;
+
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-field {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding-right: 4px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+
+}
+
+.form-buttons {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+/* .submit-button,
+.cancel-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+} */
+
+.table-section {
+    overflow-x: auto;
+}
+
+#marksTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#marksTable th,
+#marksTable td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+#marksTable th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.actions-cell button {
+    margin-right: 5px;
+}
+
+
+.download-button {
+    margin-top: 20px;
+}
+#submitAttendance{
+    width: 100px;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        border: none;
+        padding: 12px;
+        border-radius: 5px;
+        width: 130px;
+        /* padding-bottom: 10px; */
+        background-color: #F9770F;
+            color: white;
+}
+
+
+
+.submit-button,
+.cancel-button,
+.download-button {
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.submit-button,
+.download-button {
+    background-color: #F9770F;
+    color: white;
+    font-weight: bold;
+
+}
+
+.cancel-button {
+    background-color: #f90f0f;
+    color: white;
+    font-weight: bold;
+}
+
+.submit-button:hover,
+.cancel-button:hover,
+.download-button:hover {
+    background-color: #000000c9;
+    color: white;
+    font-weight: bold;
+}
+
+.submit-button:active,
+.cancel-button:active,
+.download-button:active {
+    transform: scale(0.95);
+    /* Shrink the button when clicked */
+}
