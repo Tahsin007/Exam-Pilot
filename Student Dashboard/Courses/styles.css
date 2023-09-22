@@ -1,0 +1,108 @@
+/* Basic styling for sidebar and content */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+    background-color: #222;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #444;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav li.active {
+    background-color: #ff8533;
+}
+
+.content {
+    margin-left: 250px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-image: url('image/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 87px;
+}
+
+
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-details h1 {
+    margin: 400px;
+
+    font-family: Cambria;
+}
+
+
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+
+.table-section {
+    overflow-x: auto;
+    margin-top: -20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+#courseTable th {
+    background-color: #333034;
+    text-align: center;
+    color: #ccc;
+}

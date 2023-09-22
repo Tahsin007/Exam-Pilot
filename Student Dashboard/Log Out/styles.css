@@ -1,0 +1,127 @@
+/* Basic styling for sidebar and content */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+    background-color: #222;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #444;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav li.active {
+    background-color: #ff8533;
+}
+
+.content {
+    margin-left: 250px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-image: url('../courses/image/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 87px;
+}
+
+
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-details h1 {
+
+    margin: 400px;
+
+    font-family: Cambria;
+}
+
+
+
+.body {
+    display: flex;
+    justify-content: center;
+
+    height: 38vh;
+    margin-top: 70px;
+}
+
+.logout-dialog {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: Cambria;
+}
+
+
+
+#confirm-logout {
+    background-color: #fd934c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#confirm-logout:hover {
+    background-color: #ff8533;
+    /* Background color on hover */
+}
+
+#confirm-logout:active {
+    transform: scale(0.95);
+    /* Shrink the button when clicked */
+}
+
+/* Add this to your styles.css file */
+.logout-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(250, 0, 0);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    z-index: 9999;
+    font-family: Cambria;
+
+}

@@ -1,0 +1,88 @@
+/* Basic styling for sidebar and content */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+    background-color: #222;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #444;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav li.active {
+    background-color: #ff8533;
+}
+
+.content {
+    margin-left: 250px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-image: url('../courses/image/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 87px;
+}
+
+
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-details h1 {
+    margin: 400px;
+
+    font-family: Cambria;
+}
+
+
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria;
+    margin-left: 80px;
+    padding: 20px;
+}
+
+
+/* CSS for the notifications */
+.notification {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}

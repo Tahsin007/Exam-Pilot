@@ -1,0 +1,150 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+/* Basic styling for sidebar and content */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+    background-color: #222;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #444;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav li.active {
+    background-color: #ff8533;
+}
+
+
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-family: Barlow Condensed;
+    margin-left: 10px;
+}
+
+.user-details p {
+    margin: 0;
+    font-size: 1.2em;
+    font-family: Cambria;
+    margin-left: 10px;
+}
+
+
+
+.body {
+
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: Cambria;
+}
+
+
+form {
+    max-width: 400px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-family: Cambria;
+    font-size: 1.0em;
+}
+
+.btn1 {
+    margin-top: 10px;
+    width: 105%;
+    padding: 8px;
+    background-color: #F9770F;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn2 {
+    margin-top: 10px;
+    background-color: #f9260f;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 105%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    background-color: #f9780fb5;
+}
+
+.btn2:hover {
+    background-color: #f9260faf;
+}
+
+.btn1:active,
+.btn2:active {
+    transform: scale(0.95);
+    /* Shrink the button when clicked */
+}
