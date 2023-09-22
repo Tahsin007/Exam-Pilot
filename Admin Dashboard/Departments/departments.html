@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2><i class="fas fa-graduation-cap"></i> Admin Panel</h2>
+        </div>
+        <ul class="nav">
+            <li><a href="../home/home.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="../Students/students.html"><i class="fas fa-users"></i> Students</a></li>
+            <li><a href="../Faculties/faculties.html"><i class="fas fa-user-tie"></i> Faculties</a></li>
+            <li><a href="../Courses/courses.html"><i class="fas fa-book"></i> Courses</a></li>
+            <li class="active"><a href="#"><i class="fas fa-building"></i> Departments</a></li>
+            <li><a href="../Notification/notification.html"><i class="fas fa-bell"></i> Notification</a></li>
+            <li><a href="../Update Profile/updateProfile.html"><i class="fas fa-user"></i> Update Profile</a></li>
+            <li><a href="../Log Out/logout.html"><i class="fas fa-sign-out"></i> Log Out</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <div class="header">
+
+            <div class="user-info">
+                <div class="user-details">
+                    <h1 style="color: rgb(250, 250, 250);">Departments</h1>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="body">
+
+            <div class="container">
+
+                <div class="form-section">
+                    <form method="post" action="db.php" id="myForm">
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="departmentsId">Dept Code:</label>
+                                <input type="text" name="departmentsCode" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="departmentsName">Dept Name:</label>
+                                <input type="text" name="departmentsName" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="courses">Total Courses:</label>
+                                <input type="number" name="courses" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="semester">Total Semester:</label>
+                                <input type="number" name="semester" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="students">Total Students:</label>
+                                <input type="number" name="students" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="credit">Total Credit:</label>
+                                <input type="number" name="credit" required>
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <input type="submit" value="Submit" class="btn1">
+                            <!-- <button type="submit" class="btn1">Submit</button> -->
+                            <button type="button" onclick="cancelForm()" class="btn2">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="table-section">
+                    <table id="departmentsTable">
+                        <thead>
+                            <tr>
+                                <th>Dept Code</th>
+                                <th>Dept Name</th>
+                                <th>Total Courses</th>
+                                <th>Total Semester</th>
+                                <th>Total Students</th>
+                                <th>Total Credit</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

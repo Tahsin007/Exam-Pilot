@@ -1,0 +1,141 @@
+/* Basic styling for sidebar and content */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+    background-color: #222;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #444;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav li.active {
+    background-color: #ff8533;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 600px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-family: Barlow Condensed;
+}
+
+.user-details p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.card-row {
+    flex-basis: calc(50% - 20px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    flex: 1;
+    width: 280px;
+    height: 160px;
+    background: linear-gradient(to bottom right, #ff8a00, #e52e71);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.card p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-icon {
+    margin-top: 20px;
+}
+
+.card-icon img {
+    width: 50px;
+    height: 50px;
+}
