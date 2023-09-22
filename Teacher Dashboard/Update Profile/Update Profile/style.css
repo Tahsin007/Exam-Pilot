@@ -1,0 +1,88 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.menu {
+    background-color: #4C5D69;
+    width: 250px;
+    height: 100vh;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+    padding-left: 30px;
+    text-align: left;
+}
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+button {
+    width: 100%;
+    padding: 8px;
+}
+
+.btn1 {
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px;
+    background-color: #F9770F;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.btn2 {
+    margin-top: 10px;
+    background-color: #f9260f;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #f9780fb5;
+}
+.btn2:hover {
+    background-color: #f9260faf;
+}
