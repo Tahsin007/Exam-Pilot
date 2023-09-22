@@ -1,0 +1,6 @@
+Exam Pilot Database Modification
+
+
+
+Students table -> add new column (student_session)
+Courses Table -> add new column (course session, 1st examiner, 2nd examiner, 3rd examiner)
