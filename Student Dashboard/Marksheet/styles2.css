@@ -1,0 +1,143 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+/* Basic styling for sidebar and content */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+    background-color: #222;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #444;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav li.active {
+    background-color: #ff8533;
+}
+
+.content {
+    margin-left: 250px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-image: url('../courses/image/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 87px;
+}
+
+
+
+
+.user-info {
+    display: flex;
+    align-items: flex-start;
+
+
+}
+
+.user-details h1 {
+    margin: 300px;
+
+    font-family: Cambria;
+}
+
+/* Download button style */
+.download-button {
+    background-color: #070707;
+    /* Background color */
+    color: #fff;
+    /* Text color */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: .9em;
+    font-weight: bold;
+    padding: .8em .5em;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Smooth background color transition and transform */
+    width: 100%;
+    /* Full width */
+    max-width: 200px;
+    /* Maximum width to control the button's size */
+    margin-left: -300px;
+    /* Center the button horizontally */
+}
+
+.download-button:hover {
+    background-color: #fd934c;
+    /* Background color on hover */
+}
+
+.download-button:active {
+    transform: scale(0.95);
+    /* Shrink the button when clicked */
+}
+
+
+
+
+
+.body {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.table-section {
+    overflow-x: auto;
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+#courseTable th {
+    background-color: #333034;
+    text-align: center;
+    color: #ccc;
+}
