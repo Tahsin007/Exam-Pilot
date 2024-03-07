@@ -16,3 +16,20 @@ There are 4 dashboard:
    2.7 They can send questions to the exam controller
    2.8 They can see notifications if any students marks need to be updated as a third examiner
    2.9 They can update their profile also
+
+3. Exam Controller Dashboard: In this dashboard only the verifed exam controller can log in and access to the system.
+   Features :
+   3.1 They can send request to the teacher for question setup.
+   3.2 They can recieve question from the teachers
+   3.3 All the question are passed through encryption and decryption
+   3.4 They can setup any timeframe for question transfer. Question will arrive only on the specific timeframe.
+   3.5 They can see notifications about the question
+   3.6 They can update their Profile
+
+4. Students Dashboard: In this dashboard only the verifed student can log in and access to the system.
+   Features:
+   4.1 Students can see their web portal
+   4.2 They can see their marksheet
+   4.3 They can see their Attendance Sheet
+   4.4 They can see the updates about faculties
+   4.5 They can update their profile
