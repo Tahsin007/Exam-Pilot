@@ -1,5 +1,10 @@
 # Exam-Pilot
 
+
+User Manual Video
+https://github.com/Tahsin007/Exam-Pilot/assets/77976636/6c3253c8-e9e1-4662-8931-f878bb2bcaf0
+
+
 Exam pilot is a secured question transfer system for the examination, We used encyption and decryption technique to send and recieve question between teachers and exam controllers. Besides that with this system teacher can give marks on their respective subjects , theyu can also give attendance on the respective subjects. After that there is a student portal where any student can see their attendance and marksheet also when the result is published.
 
 There are 4 dashboard:
